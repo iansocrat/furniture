@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif ,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
     --tw-bg-opacity: 0.9;
-    background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+    background-color: #27272A;
     background-size: auto;
     background-blend-mode: lighten;
     letter-spacing: 0.025em;
