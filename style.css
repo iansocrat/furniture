@@ -1,6 +1,13 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f1f1f1;
+    font-family: Arial, sans-serif ,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --tw-bg-opacity: 0.9;
+    background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+    background-size: auto;
+    background-blend-mode: lighten;
+    letter-spacing: 0.025em;
+      
+    
+    
   }
   
   header {
@@ -21,9 +28,22 @@ body {
     margin: 0;
     padding: 0;
   }
+ 
   
   .nav-item {
     margin-right: 20px;
+    
+      -webkit-transition-property: background-color, border-color, color, fill, stroke, opacity, -webkit-box-shadow, -webkit-transform, filter, backdrop-filter;
+      -o-transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+      transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, -webkit-box-shadow, transform, -webkit-transform, filter, backdrop-filter;
+      -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      -o-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      -webkit-transition-duration: 150ms;
+      -o-transition-duration: 150ms;
+      transition-duration: 150ms;
+    
+
   }
   
   .nav-item a {
