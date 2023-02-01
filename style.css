@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif ,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
     --tw-bg-opacity: 0.9;
-    background-color: #27272A;
+    background-color: #262727;
     background-size: auto;
     background-blend-mode: lighten;
     letter-spacing: 0.025em;
@@ -20,7 +20,7 @@ body {
   .container {
     max-width: 1200px;
     margin: 0 auto;
-    color:white;
+    color: #ddd;
   }
   
   .nav-list {
@@ -32,7 +32,6 @@ body {
     color: white;
   }
  
-  
   .nav-item {
     margin-right: 20px;
     
@@ -45,14 +44,17 @@ body {
       -webkit-transition-duration: 150ms;
       -o-transition-duration: 150ms;
       transition-duration: 150ms;
+     
     
 
   }
   
   .nav-item a {
-    color: #333;
+    color:whitesmoke;
     text-decoration: none;
-  }
+      justify-content: center;
+    }
+  
   
   .search-form {
     display: flex;
@@ -64,3 +66,22 @@ body {
     padding: 10px;
     border: 1px solid;
   }
+  img{
+      background-size: 150px;
+      width: 900px;
+      height: 700px;
+      border: 2px solid;
+      color: pink;
+    
+  }
+.overraluse{
+    font-size: 90px;
+    color: white;
+    
+  }
+  .futy{
+    font-size: 90px;
+    color: orangered;
+    justify-content: baseline;
+  }
+ 
